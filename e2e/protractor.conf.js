@@ -12,6 +12,9 @@ exports.config = {
   specs: [
     './src/**/*.e2e-spec.ts'
   ],
+  suites: {
+    homepage: ['e2e/src/HomePage/homepage.e2e-spec.ts']
+  },
   capabilities: {
     'browserName': 'chrome'
   },
